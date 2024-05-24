@@ -1,0 +1,38 @@
+* Contributing
+** Commit Style
+- Make [[https://www.aleksandrhovhannisyan.com/blog/atomic-git-commits/][atomic commits]].
+- Merge between branches, rebase within a branch
+*** Commit Messages
+We use the [[https://github.com/angular/angular/blob/main/CONTRIBUTING.md#commit][AngularJS commit standard]]
+
+The scope could be one of the following
+- =lib= :: relating to core library
+- =de= :: relating to deserialization
+- =ser= :: relating to serialization
+- =ffi= :: relating to general FFI
+- =nix= :: relating to nix
+- =docs= :: relating to docs (cannot be used with type =docs=)
+- any crate feature
+
+**** Examples
+#+begin_src git-commit
+refactor!: Merge `Map` into `Texture`
+
+The distinction was not useful in actual code and added code smell
+and API design overhead due to all of the explicit matching required.
+
+It also Simplifies Python FFI.
+
+BREAKING CHANGE: Merge `Map` into `Texture`
+# ^ this is optional if you put ! after the type ^
+
+Fixes #123
+#+end_src
+
+#+begin_src git-commit
+feat(dds): Support writing cubemaps
+
+Allow users to extract cubemaps from `txp`s into dds.
+
+Fixes: #432
+#+end_src
