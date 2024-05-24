@@ -139,15 +139,3 @@ direnv allow
    ([[LICENSE-MIT][LICENSE-MIT]] or http://opensource.org/licenses/MIT)
 
 at your option.
-* Contribution
-See [[./CONTRIBUTING.org][CONTRIBUTING.org]]
-
-Unless you explicitly state otherwise, any contribution intentionally submitted
-for inclusion in the work by you, as defined in the Apache-2.0 license, shall be
-dual licensed as above, without any additional terms or conditions.
-* Special Thanks to
-- [[https://github.com/blueskythlikesclouds][Skyth]]
-- [[https://github.com/korenkonder][korenkonder]]
-- [[https://www.deviantart.com/chrrox][chrrox]]
-- [[https://www.deviantart.com/minmode][minmode]]
-- [[https://github.com/featjinsoul][feat_jinsoul]]
